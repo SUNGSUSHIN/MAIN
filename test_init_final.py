@@ -1978,7 +1978,8 @@ class mainCog(commands.Cog):
 						name="----- 미예약 보스 -----",
 						value= tmp_boss_information[0],
 						inline = False
-"""						)				
+						)
+"""						
 				await ctx.send( embed=embed, tts=False)
 			else : 
 				###########################일반보스출력
