@@ -3170,7 +3170,7 @@ class IlsangDistributionBot(commands.AutoShardedBot):
 						else:
 							bossData[i][6] = ''
 							
-						tmp_msg = bossData[i][0] +'예상'
+						tmp_msg = bossData[i][0] +'예약'
 						if len(hello) > len(tmp_msg) + 4 :
 							if hello.find(':') != -1 :
 								chkpos = hello.find(':')
